@@ -1,0 +1,192 @@
+.logo {
+	display: inline-block;
+	float: left;
+}
+.phones{
+	display: inline-block;
+	float: right;
+	margin: 0 15px;
+	padding-top: 12px;
+	line-height: 0.2;
+	color: #fd6a02;
+	font-size: 28px;
+}
+.menu {
+	list-style: none;
+	margin: 0;
+	padding-left: 0;
+	margin-top: 25px;
+	background:#000;
+	height: 50px;
+	position: relative;
+	width: 100%;
+	display: table;
+}
+.menu li {
+	display: table-cell;
+	position: relative;
+}
+.menu li a {
+	text-decoration: none;
+	background: #000;
+	color: #fff;
+	padding: 0px 15px;
+	font-family: Arial;
+	line-height: 50px;
+	display: block;
+	border-right: 1px solid #fd6a02;
+	text-align: center;
+}
+.breadcrumb {
+  padding: 0px 16px;
+  list-style: none;
+}
+.breadcrumb li {
+  display: inline;
+  font-size: 16px;
+}
+.breadcrumb li+li:before {
+  padding: 0px;
+  color: black;
+  content: "- ";
+}
+.breadcrumb li a {
+  color: black;
+  text-decoration: underline;
+}
+.calculator {
+	margin: 15px;
+	display: block;
+	background: #f7f5f3;
+	width: 67%;
+	position: relative;
+}
+#calc_name {
+	padding-left: 260px;
+	color: #fd6a02;
+	font-size: 42px;
+}
+.date_of_registration_of_the_deposit {
+	float: bottom;
+	padding: 0px 70px;
+}
+.date_of_registration_of_the_deposit p {
+	display: inline-block;
+	font-size: 20px;
+	padding: 0px 40px;
+}
+.date_of_registration_of_the_deposit input {
+	display: inline-block;
+	width: 140px;
+	font-size: 16px;
+}
+.deposit_amount {
+	float: bottom;
+	padding: 0px 164px;
+}
+.deposit_amount p {
+	display: inline-block;
+	font-size: 20px;
+	padding: 0px 39px;
+}
+#num1 {
+	display: inline-block;
+	width: 140px;
+	font-size: 16px;
+}
+#slider1 {
+	display: inline-block;
+	width: 300px;
+	font-size: 16px;
+	margin: 20px;
+}
+.deposit_term {
+	float: bottom;
+	padding: 0px 180px;
+}
+.deposit_term p {
+	display: inline-block;
+	font-size: 20px;
+	padding: 0px 37px;
+}
+.deposit_term select {
+	display: inline-block;
+	width: 150px;
+	font-size: 16px;
+}
+.deposit_replenishment {
+	float: bottom;
+	padding: 0px 143px;
+}
+.deposit_replenishment p {
+	display: inline-block;
+	font-size: 20px;
+	padding: 0px 14px;
+}
+.deposit_replenishment_amount {
+	float: bottom;
+	padding: 0px 60px;
+}
+.deposit_replenishment_amount p {
+	display: inline-block;
+	font-size: 20px;
+	padding: 0px 37px;
+}
+#num2 {
+	display: inline-block;
+	width: 140px;
+	font-size: 16px;
+}
+#slider2 {
+	display: inline-block;
+	width: 300px;
+	font-size: 16px;
+	margin: 20px;
+}
+.result {
+	float: bottom;
+}
+.btn{
+	display: inline-block;
+	border-radius: 4px;
+	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.08);
+	color: #fff;
+	width:100px;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	padding: 8px 16px;
+	margin: 0px 100px;
+	margin-top: 30px;
+	text-decoration: none;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.075);
+	background-color: rgb( 43, 153, 91 );
+	border: 1px solid rgb( 33, 126, 74 );
+}
+#result_label {
+	display: inline-block;
+	font-size: 20px;
+}
+#result_score {
+	display: inline-block;
+	width: 150px;
+	font-size: 20px;
+}
+footer {
+  	background-color: #000;
+  	color: #fff;
+	width: 100%;
+	height: 70px;
+  	bottom: 0;
+  	position:fixed;
+}
+.foot {
+	float: left;
+}
+.foot a {
+	display: inline-block;
+  	vertical-align: middle;
+  	padding: 0 20px;
+  	color: #fff;
+  	margin-top: 15px;
+}
